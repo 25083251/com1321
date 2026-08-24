@@ -11,12 +11,12 @@ public class Extreme {
         if (num == 1) {
             while (true) {
                 System.out.println("Please select one of the following menu items: ");
-                System.out.println("(1) Capture a new product.");
-                System.out.println("(2) Search for a product. ");
-                System.out.println("(3) Update a product. ");
-                System.out.println("(4) Delete a product. ");
-                System.out.println("(5) Print Report. ");
-                System.out.println("(6) Exit Application. ");
+                System.out.println("1. Capture a new product.");
+                System.out.println("2. Search for a product. ");
+                System.out.println("3. Update a product. ");
+                System.out.println("4. Delete a product. ");
+                System.out.println("5. Print Report. ");
+                System.out.println("6. Exit Application. ");
                 int Num2 = input.nextInt();
 
                 switch (Num2) {

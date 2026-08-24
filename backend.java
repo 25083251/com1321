@@ -37,7 +37,7 @@ public class backend {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Capture a new product");
-        System.out.println("***************************************************************");
+        System.out.println("**************************************************************");
         System.out.println("Enter the Product code(0000): ");
         int Productcode = sc.nextInt();
         sc.nextLine();
